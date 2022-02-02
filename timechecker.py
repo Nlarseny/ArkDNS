@@ -34,9 +34,9 @@ def get_serial(target, server_root):
 
 def start_recording(root_name, server_root):
     file_name = str(root_name) + ".txt"
-    with open(file_name, 'a') as the_file:
-	    first = file_name
-	    the_file.write(first)
+    # with open(file_name, 'a') as the_file:
+	#    first = file_name
+	 #   the_file.write(first)
 
     iter = 0
     target_address = "example.com" + str(iter)
@@ -63,7 +63,7 @@ def start_recording(root_name, server_root):
             if current_serial != -1:
                 previous_serial = current_serial
         
-        time.sleep(30)
+        time.sleep(600)
 
 def main(argv):
     # hit the other addresses
