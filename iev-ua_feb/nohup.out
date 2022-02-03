@@ -10922,3 +10922,5 @@ remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at 2c42d9bf69f42276a9c409cde8acd67790c88b0e but expected 823b31e392ab230130170848abbcca8b025b425a
 [master 2c42d9b] test
  1 file changed, 15 insertions(+)
+[master 10ed734] test
+ 1 file changed, 10 insertions(+)
