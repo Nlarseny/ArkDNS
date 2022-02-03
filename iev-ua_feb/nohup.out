@@ -2015,3 +2015,13 @@ Changes not staged for commit:
 no changes added to commit
 [master 83a00b7] test
  1 file changed, 13 insertions(+)
+[master f687941] test
+ 1 file changed, 11 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
