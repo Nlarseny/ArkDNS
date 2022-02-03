@@ -3968,3 +3968,10 @@ To https://github.com/Nlarseny/ArkDNS.git
    91fffd7..70bc565  master -> master
 [master 1b1d9ef] test
  3 files changed, 9 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master e321fd7] test
+ 1 file changed, 7 insertions(+)
