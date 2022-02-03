@@ -5778,3 +5778,16 @@ Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+[master 9086d3f] test
+ 1 file changed, 7 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   f5542b4..75de2c3  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 9086d3f50025f5e2376cc832cf55d8a8b6036181 but expected f5542b4e1c9a6de89d7eed972b0210cad58d2fad)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 9086d3f50025f5e2376cc832cf55d8a8b6036181 but expected f5542b4e1c9a6de89d7eed972b0210cad58d2fad)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 9086d3f50025f5e2376cc832cf55d8a8b6036181 but expected f5542b4e1c9a6de89d7eed972b0210cad58d2fad)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
