@@ -1227,3 +1227,21 @@ Your branch is ahead of 'origin/master' by 3 commits.
 nothing to commit, working tree clean
 [master 138eca1] test
  1 file changed, 59 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 77afdf46a7729f179695411dc7f9b4caec522c35 but expected 138eca113dbe9cc86ed5d5e5d171d2594b175ac0
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+[master 77afdf4] test
+ 1 file changed, 23 insertions(+)
