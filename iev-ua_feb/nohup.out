@@ -8685,3 +8685,13 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [master a4626c6] test
  1 file changed, 42 insertions(+)
+[master eaff9f3] test
+ 1 file changed, 16 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at eaff9f30b4768f5c2ae6a125a65548ab73acbcd1 but expected e531007ecc9035cd243368b192fccd25f9332c62)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   e531007..a4626c6  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at eaff9f30b4768f5c2ae6a125a65548ab73acbcd1 but expected e531007ecc9035cd243368b192fccd25f9332c62)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
