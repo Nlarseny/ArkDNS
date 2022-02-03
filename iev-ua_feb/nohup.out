@@ -12058,3 +12058,10 @@ To https://github.com/Nlarseny/ArkDNS.git
    dd90e5f..f921547  master -> master
 [master d9f89ba] test
  1 file changed, 6 insertions(+)
+[master 8c2af1c] test
+ 1 file changed, 2 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   f921547..d9f89ba  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 8c2af1ce0342444a7ff86f4824bdbe2ad8f3fc1e but expected f92154756f033f694424708aa985570466b5ea5c)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
