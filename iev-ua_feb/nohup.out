@@ -2847,3 +2847,13 @@ no changes added to commit
 To https://github.com/Nlarseny/ArkDNS.git
    c953cfa..8e75cd3  master -> master
 Everything up-to-date
+[master 7d28214] test
+ 1 file changed, 13 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
