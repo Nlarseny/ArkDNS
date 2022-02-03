@@ -1595,3 +1595,38 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 [master 3db32fe] test
  1 file changed, 7 insertions(+)
+[master 30fee43] test
+ 1 file changed, 2 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586 but expected 1a3090890fa68deb3e0654d853db17268d7040f5)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586 but expected 1a3090890fa68deb3e0654d853db17268d7040f5)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586 but expected 1a3090890fa68deb3e0654d853db17268d7040f5)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   1a30908..9ae0ac5  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586 but expected 1a3090890fa68deb3e0654d853db17268d7040f5)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586 but expected 1a3090890fa68deb3e0654d853db17268d7040f5)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
