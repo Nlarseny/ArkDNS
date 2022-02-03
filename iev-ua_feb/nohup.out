@@ -6177,3 +6177,10 @@ Everything up-to-date
 Everything up-to-date
 [master a267402] test
  1 file changed, 30 insertions(+)
+[master f25d3a6] test
+ 1 file changed, 2 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   a4c6fca..a267402  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at f25d3a6e9fb2bde5f03fffdbb517c3f9a310ce9b but expected a4c6fcafdd1c20dfae462ccd15d2f52c71ccf765)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
