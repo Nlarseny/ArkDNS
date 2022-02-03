@@ -13196,3 +13196,75 @@ To https://github.com/Nlarseny/ArkDNS.git
  1 file changed, 4 insertions(+)
 To https://github.com/Nlarseny/ArkDNS.git
    71ae5c5..116e6d6  master -> master
+[master ee25579] test
+ 1 file changed, 4 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   116e6d6..159333c  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+   159333c..ee25579  master -> master
+[master 4c76bbd] test
+ 1 file changed, 6 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   ee25579..4c76bbd  master -> master
+[master 4e99369] test
+ 1 file changed, 4 insertions(+)
+[master 835a875] test
+ 1 file changed, 2 insertions(+)
+[master 7c38a1c] test
+ 1 file changed, 2 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+To https://github.com/Nlarseny/ArkDNS.git
+   4c76bbd..4e99369  master -> master
+[master 9f66b7a] test
+ 1 file changed, 17 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 835a875f98015625d5d5c82c60fd2daf215cce85 but expected 4c76bbdf18daf1828d9a610429e0d776cdb784a4)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+[master ad1118c] test
+ 1 file changed, 15 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   835a875..7c38a1c  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 9f66b7aad4848242d2e05ad4601b633ab8fc5769 but expected 835a875f98015625d5d5c82c60fd2daf215cce85)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 9f66b7aad4848242d2e05ad4601b633ab8fc5769 but expected 835a875f98015625d5d5c82c60fd2daf215cce85)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+[master 26d986f] test
+ 1 file changed, 17 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To https://github.com/Nlarseny/ArkDNS.git
+   9f66b7a..ad1118c  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 26d986f5d1501a9c3ef986b0ef2bab6203aec6ac but expected ad1118ccaf2a030582dc39fe3cb95c35a01dd7c5)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   ad1118c..26d986f  master -> master
+[master 42c7d27] test
+ 1 file changed, 14 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   26d986f..42c7d27  master -> master
+[master 425510d] test
+ 1 file changed, 4 insertions(+)
+[master 3c170bb] test
+ 1 file changed, 2 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   42c7d27..425510d  master -> master
