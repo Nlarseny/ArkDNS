@@ -8774,3 +8774,32 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [master bc35eb3] test
  1 file changed, 64 insertions(+)
+[master 7095cb5] test
+ 1 file changed, 11 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at bc35eb39cf73f2f34d0e3fc594d1db4494ccf029 but expected b531df536dae06e0953b8de6235ca83389879721)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/Nlarseny/ArkDNS.git
+   b531df5..82de37c  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at bc35eb39cf73f2f34d0e3fc594d1db4494ccf029 but expected b531df536dae06e0953b8de6235ca83389879721)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at bc35eb39cf73f2f34d0e3fc594d1db4494ccf029 but expected b531df536dae06e0953b8de6235ca83389879721)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at bc35eb39cf73f2f34d0e3fc594d1db4494ccf029 but expected b531df536dae06e0953b8de6235ca83389879721)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at bc35eb39cf73f2f34d0e3fc594d1db4494ccf029 but expected b531df536dae06e0953b8de6235ca83389879721)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+   bc35eb3..7095cb5  master -> master
