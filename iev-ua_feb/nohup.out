@@ -9432,3 +9432,13 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 [master a19c29e] test
  1 file changed, 32 insertions(+)
+[master 2e9d46b] test
+ 1 file changed, 7 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 2e9d46b4ba2409b697df456b80252300d97aa12c but expected 43ef38df0d7631720095bf3c9f182968d26a8c87)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 2e9d46b4ba2409b697df456b80252300d97aa12c but expected 43ef38df0d7631720095bf3c9f182968d26a8c87)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   43ef38d..a19c29e  master -> master
