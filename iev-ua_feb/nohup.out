@@ -5471,3 +5471,10 @@ To https://github.com/Nlarseny/ArkDNS.git
 To https://github.com/Nlarseny/ArkDNS.git
  ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 3ca3f9b41a523246427931bc0d1d7d3a6d79eb28 but expected 91c5883f2186465a75d6a1572ab127cf3836c882)
 error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master 29b38ac] test
+ 1 file changed, 27 insertions(+)
