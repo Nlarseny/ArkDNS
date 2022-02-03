@@ -6221,3 +6221,31 @@ fatal: cannot lock ref 'HEAD': is at 316377257e1a472ba02e1f7372714c3018970bc0 bu
  1 file changed, 25 insertions(+)
 [master c84bb85] test
  1 file changed, 7 insertions(+)
+[master 67412f5] test
+ 1 file changed, 5 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 67412f570793b8422dca3f8b62b0041d4e428716 but expected f25d3a6e9fb2bde5f03fffdbb517c3f9a310ce9b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 67412f570793b8422dca3f8b62b0041d4e428716 but expected f25d3a6e9fb2bde5f03fffdbb517c3f9a310ce9b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/Nlarseny/ArkDNS.git
+   f25d3a6..63da6df  master -> master
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 67412f570793b8422dca3f8b62b0041d4e428716 but expected f25d3a6e9fb2bde5f03fffdbb517c3f9a310ce9b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
