@@ -842,3 +842,25 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[master c66e959] test
+ 1 file changed, 8 insertions(+)
+fatal: cannot lock ref 'HEAD': is at 0a7fe70c31318fccfaf3b6591ad968f28d777636 but expected c66e95998f53323fcf4af66c054fd621cfe7d6a7
+[master 0a7fe70] test
+ 1 file changed, 9 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 0a7fe70c31318fccfaf3b6591ad968f28d777636 but expected 1927abae52f37bfba8feaf8e700de4baa58b12b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 0a7fe70c31318fccfaf3b6591ad968f28d777636 but expected 1927abae52f37bfba8feaf8e700de4baa58b12b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   1927aba..29dc270  master -> master
+Everything up-to-date
+Everything up-to-date
