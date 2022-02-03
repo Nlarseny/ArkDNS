@@ -6032,3 +6032,18 @@ To https://github.com/Nlarseny/ArkDNS.git
  1 file changed, 6 insertions(+)
 [master a1eaa3d] test
  1 file changed, 4 insertions(+)
+[master 1362a51] test
+ 1 file changed, 2 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1362a51911082beba8f646c90aa362f5dbb6ed47 but expected 2502fb7a965e66cf54264c219f7e66eb9c1b0111)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   2502fb7..de37749  master -> master
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
