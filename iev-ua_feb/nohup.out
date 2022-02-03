@@ -12744,3 +12744,25 @@ Changes not staged for commit:
 no changes added to commit
 [master b18fdc9] test
  1 file changed, 16 insertions(+)
+[master 4ad7374] test
+ 1 file changed, 17 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   590c40a..939fa7c  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 4ad73741b44e8d0ce2c7d1ad7da3cd317db1a0c6 but expected 590c40ab22451830e53f6b7fe4c7a77d3bd4120b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Everything up-to-date
