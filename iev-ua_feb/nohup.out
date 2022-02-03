@@ -7830,3 +7830,8 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+[master 08305cb] test
+ 1 file changed, 15 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 08305cb25a3c7ab73db4282ab837ab6ee688b5c9 but expected d2ed5fbb4349e81c06e5fc63e68d83d8b2a5ab34)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
