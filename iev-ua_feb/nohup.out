@@ -2378,3 +2378,13 @@ To https://github.com/Nlarseny/ArkDNS.git
  1 file changed, 7 insertions(+)
 [master d91d70a] test
  1 file changed, 2 insertions(+)
+[master f6c9c8c] test
+ 1 file changed, 2 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
