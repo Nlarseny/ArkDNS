@@ -5659,3 +5659,16 @@ Changes not staged for commit:
 no changes added to commit
 [master fb4e4ff] test
  1 file changed, 12 insertions(+)
+[master 6a956ff] test
+ 1 file changed, 17 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 6a956ff0e762693744504ac55bbabfb5cc223edd but expected f37264a49ee167af9321641cece30a1fa6e152d4)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
