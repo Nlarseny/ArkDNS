@@ -11032,3 +11032,10 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [master 6cc20f3] test
  1 file changed, 16 insertions(+)
+[master eb4862e] test
+ 1 file changed, 14 insertions(+)
+[master bea20fd] test
+ 1 file changed, 4 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at bea20fde30afb3c68c784ade656f21c754c24d6e but expected 8da880b9e1f24a801aca8ee7c033ac0fd0c76868)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
