@@ -1992,3 +1992,15 @@ Everything up-to-date
 Everything up-to-date
 Everything up-to-date
 Everything up-to-date
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master f7728f8] test
+ 1 file changed, 39 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master   b7981d0..f7728f8   (master -> mastercannot lock ref 'refs/heads/master': is at f7728f83a44ceae137ea5ac79e41eec418f64eff but expected b7981d0eec16be35fc58b3aed1f372d56eb17e4e)
+
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
