@@ -6401,3 +6401,35 @@ Changes not staged for commit:
 no changes added to commit
 [master 90f9134] test
  1 file changed, 22 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master a4b3685] test
+ 1 file changed, 7 insertions(+)
+[master 79b1b70] test
+ 1 file changed, 10 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 79b1b7023a2f65af4f1d9a9910e23fb4322b3993 but expected 109a9af2518c5e30a8502394a993eb4992ad88c8)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 79b1b7023a2f65af4f1d9a9910e23fb4322b3993 but expected 109a9af2518c5e30a8502394a993eb4992ad88c8)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   109a9af..908f014  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 79b1b7023a2f65af4f1d9a9910e23fb4322b3993 but expected 109a9af2518c5e30a8502394a993eb4992ad88c8)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
