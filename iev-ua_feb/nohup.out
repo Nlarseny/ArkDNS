@@ -4128,3 +4128,12 @@ To https://github.com/Nlarseny/ArkDNS.git
 error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
 To https://github.com/Nlarseny/ArkDNS.git
    f255931..543eee6  master -> master
+[master e3383ee] test
+ 1 file changed, 18 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at d759ecc81552f3a27944647f17d7b6224fda58b5 but expected 543eee66993520efcaa744e23c0e006521236c0c)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   543eee6..d759ecc  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+   d759ecc..e3383ee  master -> master
