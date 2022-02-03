@@ -10645,3 +10645,33 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master 383873b] test
+ 1 file changed, 37 insertions(+)
+[master 947462e] test
+ 1 file changed, 21 insertions(+)
+Everything up-to-date
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 947462e6e54d7851a33ae28e43a1e552d1fd58a3 but expected a8ccbafaf50345c7c607abcee592e8a159b618ba)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 947462e6e54d7851a33ae28e43a1e552d1fd58a3 but expected a8ccbafaf50345c7c607abcee592e8a159b618ba)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   a8ccbaf..ceaaaca  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Everything up-to-date
+Everything up-to-date
