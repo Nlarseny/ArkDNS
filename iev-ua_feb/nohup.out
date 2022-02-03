@@ -11875,3 +11875,27 @@ remove the file manually to continue.
  1 file changed, 2 insertions(+)
 [master 84c60d3] test
  1 file changed, 14 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master 3a550a3] test
+ 1 file changed, 18 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   02b79d9..8caa6b8  master -> master
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 3a550a3667d4ca7167397f5b5a35c06014783b0e but expected 8caa6b888221e3a44edca02a2cbdb5e2106f6dbf)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   8caa6b8..84c60d3  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 3a550a3667d4ca7167397f5b5a35c06014783b0e but expected 8caa6b888221e3a44edca02a2cbdb5e2106f6dbf)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 3a550a3667d4ca7167397f5b5a35c06014783b0e but expected 8caa6b888221e3a44edca02a2cbdb5e2106f6dbf)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
