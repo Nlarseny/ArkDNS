@@ -2644,3 +2644,17 @@ Changes not staged for commit:
 no changes added to commit
 [master c355f3b] test
  1 file changed, 7 insertions(+)
+[master dc82ddf] test
+ 1 file changed, 17 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   9d6199f..e7f3553  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at dc82ddfb48c34ffb192a65f6b4caf7076e89479f but expected 9d6199f420ec6f512ca7cbe810054c5abedbcffa)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at dc82ddfb48c34ffb192a65f6b4caf7076e89479f but expected 9d6199f420ec6f512ca7cbe810054c5abedbcffa)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at dc82ddfb48c34ffb192a65f6b4caf7076e89479f but expected 9d6199f420ec6f512ca7cbe810054c5abedbcffa)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
