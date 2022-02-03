@@ -2212,3 +2212,11 @@ Your branch is ahead of 'origin/master' by 4 commits.
 nothing to commit, working tree clean
 To https://github.com/Nlarseny/ArkDNS.git
    7b810d9..0ee0e0f  master -> master
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
