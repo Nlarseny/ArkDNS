@@ -5235,3 +5235,36 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+[master 0fd9d24] test
+ 1 file changed, 10 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   87b6dd9..7086ebe  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 30b6c722c9b0f829eeb75f00cbd1a4a53c25eea8 but expected 87b6dd9d0fddf46b036c40e052756e06165286cd)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 0fd9d24271b3122ca8d0ee0ea02e495c805c42a6 but expected 30b6c722c9b0f829eeb75f00cbd1a4a53c25eea8)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   30b6c72..5145d3b  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 0fd9d24271b3122ca8d0ee0ea02e495c805c42a6 but expected 30b6c722c9b0f829eeb75f00cbd1a4a53c25eea8)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 0fd9d24271b3122ca8d0ee0ea02e495c805c42a6 but expected 30b6c722c9b0f829eeb75f00cbd1a4a53c25eea8)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
