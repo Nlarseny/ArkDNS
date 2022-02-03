@@ -7366,3 +7366,13 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at b1025bd3686ddbc771a7236b27eb392c4e3ec412 but expected 3200a473380c586d0fd0a9545d3f71db9cbf1395
+[master b1025bd] test
+ 1 file changed, 7 insertions(+)
