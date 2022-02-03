@@ -8994,3 +8994,28 @@ remove the file manually to continue.
  1 file changed, 28 insertions(+)
 [master 1e81c8e] test
  1 file changed, 16 insertions(+)
+[master 42fd3a1] test
+ 1 file changed, 4 insertions(+)
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1e81c8e1124f83beea4f21169afe968e8120e29a but expected 38c33ffa0dfc1be24dfb1e4cf0ae6b44fd30c9df)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   38c33ff..7ce2f98  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1e81c8e1124f83beea4f21169afe968e8120e29a but expected 38c33ffa0dfc1be24dfb1e4cf0ae6b44fd30c9df)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1e81c8e1124f83beea4f21169afe968e8120e29a but expected 38c33ffa0dfc1be24dfb1e4cf0ae6b44fd30c9df)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1e81c8e1124f83beea4f21169afe968e8120e29a but expected 38c33ffa0dfc1be24dfb1e4cf0ae6b44fd30c9df)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1e81c8e1124f83beea4f21169afe968e8120e29a but expected 38c33ffa0dfc1be24dfb1e4cf0ae6b44fd30c9df)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 1e81c8e1124f83beea4f21169afe968e8120e29a but expected 38c33ffa0dfc1be24dfb1e4cf0ae6b44fd30c9df)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   1e81c8e..42fd3a1  master -> master
