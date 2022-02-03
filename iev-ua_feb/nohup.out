@@ -1824,3 +1824,34 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [master 9dc901d] test
  1 file changed, 29 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Aborting commit due to empty commit message.
+Aborting commit due to empty commit message.
+[master e761469] test
+ 1 file changed, 9 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   832fc5d..9dc901d  master -> master
+Everything up-to-date
+Everything up-to-date
