@@ -833,3 +833,12 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at 776c5b134208d2ed467af0962ef9a5e7382bc8a8 but expected 29dc270fc78780b7089e04a7d2f486c73e147a55
+[master 776c5b1] test
+ 1 file changed, 2 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
