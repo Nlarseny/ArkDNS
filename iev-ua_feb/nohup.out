@@ -6773,3 +6773,32 @@ hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [master cfb4822] test
  1 file changed, 40 insertions(+)
+[master 5b64556] test
+ 1 file changed, 2 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 5b645561112f6ab1cfdcab3ad5aa373b91271a51 but expected 10dc74eec7219bf4a0e4e1a34a9ec83f0506786b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 5b645561112f6ab1cfdcab3ad5aa373b91271a51 but expected 10dc74eec7219bf4a0e4e1a34a9ec83f0506786b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   10dc74e..cfb4822  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 5b645561112f6ab1cfdcab3ad5aa373b91271a51 but expected 10dc74eec7219bf4a0e4e1a34a9ec83f0506786b)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
