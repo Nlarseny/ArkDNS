@@ -7382,3 +7382,43 @@ fatal: cannot lock ref 'HEAD': is at b1025bd3686ddbc771a7236b27eb392c4e3ec412 bu
  1 file changed, 2 insertions(+)
 To https://github.com/Nlarseny/ArkDNS.git
    9708c6e..3200a47  master -> master
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master 5ef7119] test
+ 1 file changed, 4 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at b1025bd3686ddbc771a7236b27eb392c4e3ec412 but expected 9708c6e502bd41b7b2f4066b544e4c53887cf9ac)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
+Everything up-to-date
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+   b1025bd..16d25e9  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 5ef7119210465a41eaf8a4f00b42fc3b7ab5f4d2 but expected b1025bd3686ddbc771a7236b27eb392c4e3ec412)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 5ef7119210465a41eaf8a4f00b42fc3b7ab5f4d2 but expected b1025bd3686ddbc771a7236b27eb392c4e3ec412)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 5ef7119210465a41eaf8a4f00b42fc3b7ab5f4d2 but expected b1025bd3686ddbc771a7236b27eb392c4e3ec412)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
