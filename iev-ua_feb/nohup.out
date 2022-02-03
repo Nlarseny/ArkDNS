@@ -10305,3 +10305,10 @@ To https://github.com/Nlarseny/ArkDNS.git
  1 file changed, 7 insertions(+)
 To https://github.com/Nlarseny/ArkDNS.git
    f1bf485..37e6fd1  master -> master
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master 3197e7a] test
+ 1 file changed, 9 insertions(+)
