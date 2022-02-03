@@ -12372,3 +12372,8 @@ To https://github.com/Nlarseny/ArkDNS.git
 error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
 To https://github.com/Nlarseny/ArkDNS.git
    72040e6..be1f15c  master -> master
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
