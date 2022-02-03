@@ -12922,3 +12922,11 @@ To https://github.com/Nlarseny/ArkDNS.git
 To https://github.com/Nlarseny/ArkDNS.git
    416a78a..b6651de  master -> master
 Everything up-to-date
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 54544651d80243122f22614548dcf479e1e57f21 but expected 878fb0da4b9cff74f029104eeb10d3aead78984b
