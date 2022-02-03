@@ -1135,3 +1135,25 @@ Your branch is ahead of 'origin/master' by 3 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+[master db5de26] test
+ 1 file changed, 7 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at db5de262ea7b07f0f0bf989d520e362d62af4030 but expected 4eb0ba518edde410118e42009b1893de55e1d9b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at db5de262ea7b07f0f0bf989d520e362d62af4030 but expected 4eb0ba518edde410118e42009b1893de55e1d9b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   4eb0ba5..86a9096  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at db5de262ea7b07f0f0bf989d520e362d62af4030 but expected 4eb0ba518edde410118e42009b1893de55e1d9b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at db5de262ea7b07f0f0bf989d520e362d62af4030 but expected 4eb0ba518edde410118e42009b1893de55e1d9b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at db5de262ea7b07f0f0bf989d520e362d62af4030 but expected 4eb0ba518edde410118e42009b1893de55e1d9b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at db5de262ea7b07f0f0bf989d520e362d62af4030 but expected 4eb0ba518edde410118e42009b1893de55e1d9b3)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
