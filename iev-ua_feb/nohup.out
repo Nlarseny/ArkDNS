@@ -1793,3 +1793,25 @@ Changes not staged for commit:
 no changes added to commit
 [master 3389d8c] test
  1 file changed, 25 insertions(+)
+[master 832fc5d] test
+ 1 file changed, 32 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 832fc5ddb90fa4c9024d1acddb9e0fe7ba2e3198 but expected 22ad8a9f6673494b45968abe72f1beb6359eaaa0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   22ad8a9..00c0ceb  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 832fc5ddb90fa4c9024d1acddb9e0fe7ba2e3198 but expected 22ad8a9f6673494b45968abe72f1beb6359eaaa0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 832fc5ddb90fa4c9024d1acddb9e0fe7ba2e3198 but expected 22ad8a9f6673494b45968abe72f1beb6359eaaa0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 832fc5ddb90fa4c9024d1acddb9e0fe7ba2e3198 but expected 22ad8a9f6673494b45968abe72f1beb6359eaaa0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 832fc5ddb90fa4c9024d1acddb9e0fe7ba2e3198 but expected 22ad8a9f6673494b45968abe72f1beb6359eaaa0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 832fc5ddb90fa4c9024d1acddb9e0fe7ba2e3198 but expected 22ad8a9f6673494b45968abe72f1beb6359eaaa0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
