@@ -1658,3 +1658,30 @@ no changes added to commit
  1 file changed, 2 insertions(+)
 [master c52035e] test
  1 file changed, 24 insertions(+)
+[master d9bf579] test
+ 1 file changed, 2 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at d9bf57979554c9989059258de07afae4adc04929 but expected 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at d9bf57979554c9989059258de07afae4adc04929 but expected 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   30fee43..5eaa395  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at d9bf57979554c9989059258de07afae4adc04929 but expected 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at d9bf57979554c9989059258de07afae4adc04929 but expected 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at d9bf57979554c9989059258de07afae4adc04929 but expected 30fee43ccf4b1eba15d5b240f3176ce9d0ff2586)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
