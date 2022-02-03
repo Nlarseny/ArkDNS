@@ -2004,3 +2004,14 @@ To https://github.com/Nlarseny/ArkDNS.git
  ! [remote rejected] master -> master   b7981d0..f7728f8   (master -> mastercannot lock ref 'refs/heads/master': is at f7728f83a44ceae137ea5ac79e41eec418f64eff but expected b7981d0eec16be35fc58b3aed1f372d56eb17e4e)
 
 error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+fatal: cannot lock ref 'HEAD': is at 83a00b79e05daf9e26d074235ba1c2214877af47 but expected f7728f83a44ceae137ea5ac79e41eec418f64eff
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+[master 83a00b7] test
+ 1 file changed, 13 insertions(+)
