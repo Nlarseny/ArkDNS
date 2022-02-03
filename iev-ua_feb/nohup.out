@@ -2390,3 +2390,10 @@ Changes not staged for commit:
 no changes added to commit
 [master c4e1a18] test
  1 file changed, 10 insertions(+)
+[master 3f253cc] test
+ 1 file changed, 2 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+   cd8b07d..b2ca745  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at f6c9c8c0e250ef095fcac92f78c0ea020f897262 but expected cd8b07dea4b743724ea96ea646dca6d36269cce9)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
