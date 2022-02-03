@@ -1953,3 +1953,8 @@ error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
  1 file changed, 2 insertions(+)
 [master bca930a] test
  1 file changed, 17 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
