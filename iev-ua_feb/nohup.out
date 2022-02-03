@@ -5213,3 +5213,11 @@ fatal: cannot lock ref 'HEAD': is at 3270fec66c4375f0ae35b13f8bb64452d7ecb4ee bu
  1 file changed, 9 insertions(+)
 Everything up-to-date
 Everything up-to-date
+[master 87b6dd9] test
+ 1 file changed, 29 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 87b6dd9d0fddf46b036c40e052756e06165286cd but expected bf9f5562262603abae19c999c730f827ba0c95b1)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+Everything up-to-date
+To https://github.com/Nlarseny/ArkDNS.git
+   bf9f556..3270fec  master -> master
