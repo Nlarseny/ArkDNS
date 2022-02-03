@@ -6443,3 +6443,30 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master 35998c4] test
+ 1 file changed, 10 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 35998c4da05c9bcffd26cab6d14bd85daec500de but expected 79b1b7023a2f65af4f1d9a9910e23fb4322b3993)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 35998c4da05c9bcffd26cab6d14bd85daec500de but expected 79b1b7023a2f65af4f1d9a9910e23fb4322b3993)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   79b1b70..89845ab  master -> master
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 35998c4da05c9bcffd26cab6d14bd85daec500de but expected 79b1b7023a2f65af4f1d9a9910e23fb4322b3993)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
