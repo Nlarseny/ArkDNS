@@ -6881,3 +6881,30 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 [master 0ff1b3c] test
  1 file changed, 36 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master 865a6e4] test
+ 1 file changed, 7 insertions(+)
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 865a6e49faabf96f88ce91aecacd129bb57f42e5 but expected 66067db9656ee27645ba10ddeb93d143e0d149d0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 865a6e49faabf96f88ce91aecacd129bb57f42e5 but expected 66067db9656ee27645ba10ddeb93d143e0d149d0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 865a6e49faabf96f88ce91aecacd129bb57f42e5 but expected 66067db9656ee27645ba10ddeb93d143e0d149d0)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+   66067db..0ff1b3c  master -> master
