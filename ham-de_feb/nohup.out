@@ -12,3 +12,5 @@ fatal: cannot lock ref 'HEAD': is at 8517f4dfc376d8ae56443b88bc22a3084f7f73ba bu
 [master 8517f4d] test
  1 file changed, 11 insertions(+), 1 deletion(-)
  rewrite ham-de_feb/nohup.out (100%)
+[master 2c5a6b4] test
+ 1 file changed, 7 insertions(+)
