@@ -8,3 +8,6 @@ nothing to commit, working tree clean
  1 file changed, 2 insertions(+)
 [master 11fcfeb] test
  1 file changed, 2 insertions(+)
+fatal: cannot lock ref 'HEAD': is at dd81d289b1772b0d313f6a3bd2a4be4aca543897 but expected 11fcfeb092fc58a4de440cf28f8b4ba233b098c4
+[master dd81d28] test
+ 1 file changed, 3 insertions(+)
