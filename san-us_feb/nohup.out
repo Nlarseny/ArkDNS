@@ -51,3 +51,21 @@ Changes not staged for commit:
 no changes added to commit
 [master 9430b58] test
  1 file changed, 12 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 7a9c29023462b60846f4ff7f0c49addf6e3bcd4f but expected 9430b584fa4d0f02eadf22820ca57af1c6ac2436
+[master 7a9c290] test
+ 1 file changed, 25 insertions(+)
