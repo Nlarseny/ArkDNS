@@ -71,8 +71,12 @@ def start_recording(root_name, server_root):
         subprocess.run(["git", "commit", "-m", "test"])
         subprocess.run(["git", "push"])
 
-        subprocess.run(["rm", "nohup.out"])
-        subprocess.run(["touch", "nohup.out"])
+        # subprocess.run(["rm", "nohup.out"])
+        # subprocess.run(["touch", "nohup.out"])
+        with open("nohup.out", 'w') as the_file:
+            first = str(iter)
+            the_file.write(first)
+
 
 
 def main(argv):
