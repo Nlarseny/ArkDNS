@@ -71,6 +71,9 @@ def start_recording(root_name, server_root):
         subprocess.run(["git", "commit", "-m", "test"])
         subprocess.run(["git", "push"])
 
+        subprocess.run(["rm", "nohup.out"])
+        subprocess.run(["touch", "nohup.out"])
+
 
 def main(argv):
     # hit the other addresses
