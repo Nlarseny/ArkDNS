@@ -17,3 +17,6 @@ Changes not staged for commit:
 no changes added to commit
 [master 38cebcf] test
  1 file changed, 2 insertions(+), 1 deletion(-)
+fatal: cannot lock ref 'HEAD': is at 0206ebfeffef49fa0c9b46e7ac581cd4b4687ab0 but expected 38cebcf99efba82a91afdbd36ec682e9acba0917
+[master 0206ebf] test
+ 1 file changed, 18 insertions(+)
