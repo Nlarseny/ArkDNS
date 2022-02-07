@@ -1,1 +1,16 @@
-2
+2[master 8dc1334] test
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 8517f4dfc376d8ae56443b88bc22a3084f7f73ba but expected 8dc133411d0341e243b8cbe639d9dfb0dc32db72
+fatal: cannot lock ref 'HEAD': is at 8517f4dfc376d8ae56443b88bc22a3084f7f73ba but expected 8dc133411d0341e243b8cbe639d9dfb0dc32db72
+[master 8517f4d] test
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+ rewrite ham-de_feb/nohup.out (100%)
+[master 2c5a6b4] test
+ 1 file changed, 7 insertions(+)
