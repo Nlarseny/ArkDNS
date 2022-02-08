@@ -1,3 +1,8 @@
 65fatal: cannot lock ref 'HEAD': is at 0d0108d55891e846862641d3defdb7a0413b572b but expected 40e02516b3e914863f0d23267a18a09c5eeae86b
 [master 0d0108d] test
  1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
