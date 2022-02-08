@@ -29,3 +29,7 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[master eedc260] test
+ 1 file changed, 31 insertions(+), 1 deletion(-)
+ rewrite san-us_feb/nohup.out (100%)
+Aborting commit due to empty commit message.
