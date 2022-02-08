@@ -1,2 +1,10 @@
 104[master 4279d54] test
  1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 0ef6843e7a4f9982022756e8ea6a823099d99424 but expected 4279d54e82774a9e0a79943a8104b04ddb1a29f4
