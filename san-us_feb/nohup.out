@@ -34,3 +34,13 @@ Changes not staged for commit:
 no changes added to commit
 [master 59b167f] test
  1 file changed, 32 insertions(+)
+[master 53ae12c] test
+ 1 file changed, 2 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
