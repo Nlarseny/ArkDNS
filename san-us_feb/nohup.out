@@ -20,3 +20,15 @@ Changes not staged for commit:
 no changes added to commit
 [master 451d1ae] test
  1 file changed, 18 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master 2a69f3c] test
+ 1 file changed, 12 insertions(+)
