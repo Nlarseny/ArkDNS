@@ -20,3 +20,6 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+fatal: cannot lock ref 'HEAD': is at 555ba5b178bd34d4506f931b099baed4bd158a47 but expected d890be05c60e51554e1ec463ef2cb65a533bfee8
+[master 555ba5b] test
+ 1 file changed, 12 insertions(+)
