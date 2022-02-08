@@ -6,3 +6,5 @@ fatal: cannot lock ref 'HEAD': is at d950141a2ba45a63f90efc0a8c427c35de08259f bu
  1 file changed, 4 insertions(+), 1 deletion(-)
 [master edc553c] test
  1 file changed, 3 insertions(+)
+[master 057e023] test
+ 1 file changed, 2 insertions(+)
