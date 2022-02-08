@@ -8,3 +8,7 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+fatal: cannot lock ref 'HEAD': is at cca86f103b15ad93db4ff9d8293507b592f3ad4c but expected 1409828a8a4115bbfa1942abf55ef641d68b709e
+[master cca86f1] test
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+ rewrite san-us_feb/nohup.out (100%)
