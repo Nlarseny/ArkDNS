@@ -48,3 +48,10 @@ Changes not staged for commit:
 no changes added to commit
 [master 6cb49a2] test
  1 file changed, 31 insertions(+)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
