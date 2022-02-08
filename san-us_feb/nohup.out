@@ -5,3 +5,9 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 301d335b12c300b19406b4a730d22a88c2c11b66 but expected e470897737d4193a507fdc7fae8e0ffcbcc4d41e
+fatal: cannot lock ref 'HEAD': is at 301d335b12c300b19406b4a730d22a88c2c11b66 but expected e470897737d4193a507fdc7fae8e0ffcbcc4d41e
+Aborting commit due to empty commit message.
+[master 301d335] test
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+ rewrite san-us_feb/nohup.out (100%)
