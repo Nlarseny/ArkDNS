@@ -1,2 +1,17 @@
 142[master 518ec06] test
  1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master dcc2d2e] test
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
