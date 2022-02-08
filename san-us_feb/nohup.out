@@ -11,3 +11,11 @@ Aborting commit due to empty commit message.
 fatal: cannot lock ref 'HEAD': is at 49ac096a63477a1453a09cdf5f74791624f3af6a but expected 22a6b177413c70d4058b8c081ea8cb005e60fd0b
 [master 49ac096] test
  1 file changed, 2 insertions(+), 1 deletion(-)
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 8a99167f803181635c1a9e341a5f6d6f894459b0 but expected 49ac096a63477a1453a09cdf5f74791624f3af6a
