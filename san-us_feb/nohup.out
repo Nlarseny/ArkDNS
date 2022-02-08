@@ -14,3 +14,10 @@ Aborting commit due to empty commit message.
  1 file changed, 10 insertions(+)
 [master e599c63] test
  1 file changed, 2 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master ecc8ab1] test
+ 1 file changed, 7 insertions(+)
