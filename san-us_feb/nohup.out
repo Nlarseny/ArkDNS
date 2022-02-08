@@ -1,3 +1,5 @@
 19fatal: cannot lock ref 'HEAD': is at 55587e447289e66fc03f0f362fb7b2670f12d725 but expected e95a8d8bc6aa7fb43e8cb53dae0941b8cc4f0012
 [master 55587e4] test
  1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7f62206] test
+ 1 file changed, 3 insertions(+), 1 deletion(-)
