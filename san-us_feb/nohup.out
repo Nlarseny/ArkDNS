@@ -56,3 +56,8 @@ Changes not staged for commit:
 no changes added to commit
 [master 0cce7fd] test
  1 file changed, 26 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
