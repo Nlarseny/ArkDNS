@@ -12,3 +12,5 @@ Your branch is ahead of 'origin/master' by 2 commits.
 nothing to commit, working tree clean
 [master d37e365] test
  1 file changed, 12 insertions(+), 1 deletion(-)
+[master bef510e] test
+ 1 file changed, 12 insertions(+)
