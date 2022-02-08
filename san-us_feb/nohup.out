@@ -23,3 +23,13 @@ nothing to commit, working tree clean
  1 file changed, 7 insertions(+)
 [master 5551ff1] test
  1 file changed, 7 insertions(+)
+[master 49c57ba] test
+ 1 file changed, 2 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
