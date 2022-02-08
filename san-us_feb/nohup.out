@@ -41,3 +41,24 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at 6acf29efd9a82fe9be35e31f2785fb17bcd0f80e but expected 011ee6f56460e94502ea51a09cada29d8a1ab7d6
+fatal: Unable to create '/usr/local/ark/activity/dns-access/ArkDNS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[master 6acf29e] test
+ 1 file changed, 42 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+fatal: cannot lock ref 'HEAD': is at e92d36d8c7ff8eee1c8453b97c9d9d63ee9cc48f but expected 6acf29efd9a82fe9be35e31f2785fb17bcd0f80e
+[master e92d36d] test
+ 1 file changed, 7 insertions(+)
