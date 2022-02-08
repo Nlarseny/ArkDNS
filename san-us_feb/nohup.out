@@ -18,3 +18,5 @@ fatal: cannot lock ref 'HEAD': is at 6e983c046664024c016f8b8c7e91082b84d15f55 bu
  1 file changed, 2 insertions(+)
 [master 9a8f0b3] test
  1 file changed, 2 insertions(+)
+[master e3ce546] test
+ 1 file changed, 2 insertions(+)
