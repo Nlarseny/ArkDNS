@@ -1,2 +1,5 @@
 126[master c3e12b4] test
  1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: cannot lock ref 'HEAD': is at b9bb81c7cb9bd3a779f4e7e08b5b3cc995355b6d but expected c3e12b461b23ce71e8aabdd6a5e6639f92ea1b69
+[master b9bb81c] test
+ 1 file changed, 3 insertions(+), 1 deletion(-)
