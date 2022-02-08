@@ -9,3 +9,14 @@ fatal: cannot lock ref 'HEAD': is at 849f3a9b061a74a2a9c4869f8fab4a40f2ca10b8 bu
 [master 849f3a9] test
  1 file changed, 8 insertions(+), 1 deletion(-)
  rewrite san-us_feb/nohup.out (100%)
+[master d890be0] test
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+ rewrite san-us_feb/nohup.out (100%)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
