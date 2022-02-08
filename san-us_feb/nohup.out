@@ -7,3 +7,6 @@
  1 file changed, 2 insertions(+)
 [master 248ca69] test
  1 file changed, 2 insertions(+)
+fatal: cannot lock ref 'HEAD': is at 4bace516a6dcd5100d2879cc012d862bf4c21919 but expected 248ca69d4d2df712fd325bb4a62e033918b58a48
+[master 4bace51] test
+ 1 file changed, 3 insertions(+)
