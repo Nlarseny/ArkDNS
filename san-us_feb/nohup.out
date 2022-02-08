@@ -1,1 +1,3 @@
-74
+74fatal: cannot lock ref 'HEAD': is at 3289b6b917c24fa9d1ae17ce180171ca2d9838c8 but expected 4d0659cf2778b8836a0f972bb9406c5e6bddf7b1
+[master 3289b6b] test
+ 1 file changed, 1 insertion(+), 1 deletion(-)
