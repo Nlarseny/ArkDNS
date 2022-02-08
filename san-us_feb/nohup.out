@@ -16,3 +16,19 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master adb6c55] test
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+ rewrite san-us_feb/nohup.out (100%)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
