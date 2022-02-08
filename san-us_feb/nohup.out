@@ -4,3 +4,5 @@
 fatal: cannot lock ref 'HEAD': is at d950141a2ba45a63f90efc0a8c427c35de08259f but expected 3fa7938e2d9a94d7c42f4ec2c902bdde2423488e
 [master d950141] test
  1 file changed, 4 insertions(+), 1 deletion(-)
+[master edc553c] test
+ 1 file changed, 3 insertions(+)
