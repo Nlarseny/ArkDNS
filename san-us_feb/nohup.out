@@ -41,3 +41,14 @@ Changes not staged for commit:
 no changes added to commit
 [master ec2a161] test
  1 file changed, 34 insertions(+)
+fatal: cannot lock ref 'HEAD': is at 853e035d518cd2bd9112c5fd33b870d57f203aad but expected ec2a161665cbc47b6c8f4952c725e8810d700335
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+[master 853e035] test
+ 1 file changed, 26 insertions(+)
