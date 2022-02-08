@@ -12,3 +12,10 @@ fatal: cannot lock ref 'HEAD': is at cca86f103b15ad93db4ff9d8293507b592f3ad4c bu
 [master cca86f1] test
  1 file changed, 11 insertions(+), 1 deletion(-)
  rewrite san-us_feb/nohup.out (100%)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master 96f3561] test
+ 1 file changed, 9 insertions(+)
