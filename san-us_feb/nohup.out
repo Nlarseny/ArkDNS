@@ -5,3 +5,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 [master 93fbabd] test
  1 file changed, 5 insertions(+), 1 deletion(-)
+[master c08a307] test
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[master a85d666] test
+ 1 file changed, 2 insertions(+)
