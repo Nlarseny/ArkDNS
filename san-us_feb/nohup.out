@@ -1,1 +1,3 @@
-118
+118fatal: cannot lock ref 'HEAD': is at 3fa7938e2d9a94d7c42f4ec2c902bdde2423488e but expected f15777ee39190e1ee84fce4aebada0f6931b846b
+[master 3fa7938] test
+ 2 files changed, 2 insertions(+), 1 deletion(-)
