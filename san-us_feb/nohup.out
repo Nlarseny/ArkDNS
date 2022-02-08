@@ -35,3 +35,7 @@ Your branch is ahead of 'origin/master' by 5 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+[master a93d97b] test
+ 1 file changed, 7 insertions(+)
+[master 48ae9be] test
+ 1 file changed, 9 insertions(+)
