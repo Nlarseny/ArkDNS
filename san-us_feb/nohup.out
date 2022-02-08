@@ -10,3 +10,21 @@ fatal: cannot lock ref 'HEAD': is at 24604f6495163df74a1559387515c747f342df17 bu
 [master 24604f6] test
  1 file changed, 9 insertions(+), 1 deletion(-)
  rewrite san-us_feb/nohup.out (100%)
+[master 12a44f4] test
+ 1 file changed, 5 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
