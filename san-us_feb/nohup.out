@@ -23,3 +23,13 @@ no changes added to commit
 Aborting commit due to empty commit message.
 [master 202a275] test
  1 file changed, 11 insertions(+)
+[master c6ea6df] test
+ 1 file changed, 3 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
