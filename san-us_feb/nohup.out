@@ -14,3 +14,13 @@ nothing to commit, working tree clean
  1 file changed, 12 insertions(+), 1 deletion(-)
 [master bef510e] test
  1 file changed, 12 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
+[master 9a80ccc] test
+ 1 file changed, 2 insertions(+)
