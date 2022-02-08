@@ -33,3 +33,10 @@ Changes not staged for commit:
 	modified:   nohup.out
 
 no changes added to commit
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master c1f3d39] test
+ 1 file changed, 15 insertions(+)
