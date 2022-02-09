@@ -1,2 +1,9 @@
 290[master c351ec3] test
  1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[master e91146a] test
+ 1 file changed, 7 insertions(+), 1 deletion(-)
