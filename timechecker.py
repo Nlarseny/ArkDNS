@@ -67,9 +67,9 @@ def start_recording(root_name, server_root):
         time.sleep(600)
         
         # add if when we get down to the wire
-        subprocess.run(["git", "add", "."])
-        subprocess.run(["git", "commit", "-m", "test"])
-        subprocess.run(["git", "push", "-f", "origin", "master"])
+#         subprocess.run(["git", "add", "."])
+#         subprocess.run(["git", "commit", "-m", "test"])
+#         subprocess.run(["git", "push", "-f", "origin", "master"])
 
         # subprocess.run(["rm", "nohup.out"])
         # subprocess.run(["touch", "nohup.out"])
