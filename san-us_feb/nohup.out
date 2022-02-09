@@ -5,3 +5,10 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 [master 23798cd] test
  1 file changed, 5 insertions(+), 1 deletion(-)
+[master 32b14ab] test
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
