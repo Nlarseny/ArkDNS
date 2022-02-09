@@ -1,1 +1,10 @@
-246
+246[master 1e67608] test
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   nohup.out
+
+no changes added to commit
