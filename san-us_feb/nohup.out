@@ -6,3 +6,5 @@ Your branch is ahead of 'origin/master' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+[master ece9e89] test
+ 1 file changed, 8 insertions(+), 1 deletion(-)
