@@ -1,0 +1,6 @@
+173https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 17c0d4d1974992dccfff058082b2402e89914482 but expected 2c044b96beb955b25044482dd6ffe5726e052eb7)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
+To https://github.com/Nlarseny/ArkDNS.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 17c0d4d1974992dccfff058082b2402e89914482 but expected 2c044b96beb955b25044482dd6ffe5726e052eb7)
+error: failed to push some refs to 'https://github.com/Nlarseny/ArkDNS.git'
