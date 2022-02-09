@@ -1,3 +1,1 @@
-188fatal: cannot lock ref 'HEAD': is at 243004d589fd3f7c5afe376c4c7825a708b755bd but expected 9e91b2b5b48834aa84f62ba06caa588c681ed7fd
-[master 243004d] test
- 1 file changed, 1 insertion(+), 2 deletions(-)
+188
