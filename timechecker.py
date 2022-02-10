@@ -6,6 +6,7 @@ import dns.name
 import dns.message
 import dns.query
 import dns.flags
+import dns
 import threading
 import subprocess
 
@@ -48,7 +49,6 @@ def start_recording(root_name, server_root):
         iter += 1
         target_address = "example.com" + str(iter)
         current_serial = get_serial(target_address, server_root)
-        # potential bug, if neg 1 run again until its not for previous
         
         if current_serial != previous_serial or current_serial == -1:
             print(iter)
@@ -81,19 +81,19 @@ def start_recording(root_name, server_root):
 
 def main(argv):
     # hit the other addresses
-    roots = [("feb_1_verisign(a)", "198.41.0.4"),
-    ("feb_1_USC", "199.9.14.201"),
-    ("feb_1_CogentCom", "192.33.4.12"),
-    ("feb_1_UM", "199.7.91.13"),
-    ("feb_1_NASA", "192.203.230.10"),
-    ("feb_1_ISC", "192.5.5.241"),
-    ("feb_1_US DD (NIC)", "192.112.36.4"),
-    ("feb_1_Army", "198.97.190.53"),
-    ("feb_1_Netnod", "192.36.148.17"),
-    ("feb_1_verisign (j)", "192.58.128.30"),
-    ("feb_1_RIPE", "193.0.14.129"),
-    ("feb_1_ICANN", "199.7.83.42"),
-    ("feb_1_WIDE", "202.12.27.33")]
+    roots = [("verisign(a)", "198.41.0.4"),
+    ("USC", "199.9.14.201"),
+    ("CogentCom", "192.33.4.12"),
+    ("UM", "199.7.91.13"),
+    ("NASA", "192.203.230.10"),
+    ("ISC", "192.5.5.241"),
+    ("US_DD(NIC)", "192.112.36.4"),
+    ("Army", "198.97.190.53"),
+    ("Netnod", "192.36.148.17"),
+    ("verisign(j)", "192.58.128.30"),
+    ("RIPE", "193.0.14.129"),
+    ("ICANN", "199.7.83.42"),
+    ("WIDE", "202.12.27.33")]
 
 
     for r in roots:
@@ -134,3 +134,31 @@ if __name__ == "__main__":
 
 
 #     time.sleep(5)
+
+
+# roots = [("verisign(a)", "198.41.0.4"),
+#     ("USC", "199.9.14.201"),
+#     ("CogentCom", "192.33.4.12"),
+#     ("UM", "199.7.91.13"),
+#     ("NASA", "192.203.230.10"),
+#     ("ISC", "192.5.5.241"),
+#     ("US_DD(NIC)", "192.112.36.4"),
+#     ("Army", "198.97.190.53"),
+#     ("Netnod", "192.36.148.17"),
+#     ("verisign(j)", "192.58.128.30"),
+#     ("RIPE", "193.0.14.129"),
+#     ("ICANN", "199.7.83.42"),
+#     ("WIDE", "202.12.27.33"),
+#     ("verisign(a)_v6", "2001:503:ba3e::2:30"), # adding the ipv6's
+#     ("USC_v6", "2001:500:200::b"),
+#     ("CogentCom_v6", "2001:500:2::c"),
+#     ("UM_v6", "2001:500:2d::d"),
+#     ("NASA_v6", "2001:500:a8::e"),
+#     ("ISC_v6", "2001:500:2f::f"),
+#     ("US_DD(NIC)_v6", "2001:500:12::d0d"),
+#     ("Army_v6", "2001:500:1::53"),
+#     ("Netnod_v6", "2001:7fe::53"),
+#     ("verisign(j)_v6", "2001:503:c27::2:30"),
+#     ("RIPE_v6", "2001:7fd::1"),
+#     ("ICANN_v6", "2001:500:9f::42"),
+#     ("WIDE_v6", "2001:dc3::35")]
