@@ -1,5 +1,4 @@
 import sys
-from optparse import OptionParser
 from datetime import datetime
 import time
 import dns.name
@@ -8,7 +7,6 @@ import dns.query
 import dns.flags
 import dns
 import threading
-import subprocess
 
 def get_serial(target, server_root):
     #domain = '199.7.91.13' aka the target
