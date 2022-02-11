@@ -66,13 +66,7 @@ def start_recording(root_name, server_root):
         
         time.sleep(600)
         
-        # add if when we get down to the wire
-#         subprocess.run(["git", "add", "."])
-#         subprocess.run(["git", "commit", "-m", "test"])
-#         subprocess.run(["git", "push", "-f", "origin", "master"])
 
-        # subprocess.run(["rm", "nohup.out"])
-        # subprocess.run(["touch", "nohup.out"])
         with open("nohup.out", 'w') as the_file:
             first = str(iter)
             the_file.write(first)
@@ -104,36 +98,6 @@ def main(argv):
 if __name__ == "__main__":
     main(sys.argv[1:])
 
-    # root changes seem to consistently be between 22:00 and 23:00, as well as between 10:00 and 11:00 (MST)
-
-
-
-
-# import git
-# import time
-# import subprocess
-
-
-# iter = 0
-# while 1:
-#     iter += 1
-
-#     with open("test.txt", 'a') as the_file:
-#         first = str(iter) + "\n"
-#         the_file.write(first)
-
-#     # repo = git.Repo('/Nlarseny/git_test')
-#     # repo.git.add('--all')  # to add all the working files.
-#     # repo.git.commit('-m', 'commit message from python script', author='test_user@test.com')
-#     # origin = repo.remote(name='origin')
-#     # origin.push()
-
-#     subprocess.run(["git", "add", "."])
-#     subprocess.run(["git", "commit", "-m", "test"])
-#     subprocess.run(["git", "push"])
-
-
-#     time.sleep(5)
 
 
 # roots = [("verisign(a)", "198.41.0.4"),
