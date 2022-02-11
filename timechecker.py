@@ -41,13 +41,13 @@ def start_recording(root_name, server_root):
 	 #   the_file.write(first)
 
     iter = 0
-    target_address = "example.com" + str(iter)
+    target_address = "example.com_byuimaallab" + str(iter)
     previous_serial = get_serial(target_address, server_root)
 
     
     while 1:
         iter += 1
-        target_address = "example.com" + str(iter)
+        target_address = "example.com_byuimaallab" + str(iter)
         current_serial = get_serial(target_address, server_root)
         
         if current_serial != previous_serial or current_serial == -1:
