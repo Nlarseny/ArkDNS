@@ -212,6 +212,7 @@ def main(argv):
             for r in roots:
                 x = threading.Thread(target=measure, args=(r[0], target_address, r[1], serial_map)) # file_name, target_address, server_root, previous_serial
                 x.start()
+                time.sleep(.5)
                 threads.append(x)
 
             for t in threads:
