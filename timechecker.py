@@ -127,7 +127,8 @@ def get_serial(target, server_root):
         return -1
 
 
-def measure(file_name, target_address, server_root, previous_serial):
+def measure(file_name, target_address, server_root, serial_map):
+    previous_serial = serial_map[file_name]
     current_serial = get_serial(target_address, server_root)
     if current_serial != previous_serial or current_serial == -1:
         # print(iter)
@@ -135,13 +136,17 @@ def measure(file_name, target_address, server_root, previous_serial):
             with open(file_name, 'a') as the_file:
                 first = str(datetime.now().time()) + " TIMED OUT" + "\n"
                 the_file.write(first)
+            
         else:
             # print(file_name)
             with open(file_name, 'a') as the_file:
                     first = str(datetime.now().time()) + " " + str(current_serial) + "\n"
                     the_file.write(first)
-        if current_serial != -1:
-            previous_serial = current_serial
+            
+            serial_map[file_name] = current_serial
+        
+
+    
 
     
 
@@ -201,45 +206,57 @@ def main(argv):
     while 1:
         target_time = next_target(list_of_times, current_time)
 
-        for x in timer_list:
-            time.sleep(1)
+        for l in timer_list:
+            # time.sleep(1)
             iter += 1
             target_address = "example.com_byu_imaal_lab_test" + str(iter)
 
             # block until we are close enought to the target time
-            result_check = checkIfTime(current_time, target_time, x, 0)
+            result_check = checkIfTime(current_time, target_time, l, 0)
             while not result_check:
                 time.sleep(1)
                 print("waiting...", iter)
                 # checks to see how close the current time is to the target
-                result_check = checkIfTime(current_time, target_time, x, 0)
+                result_check = checkIfTime(current_time, target_time, l, 0)
                 current_time = createTimeStamp()
 
-            
-            for r in roots:
-                x = threading.Thread(target=measure, args=(r[0], target_address, r[1], serial_map[r[0]])) # file_name, target_address, server_root, previous_serial
-                x.start()
-                x.join()
 
-        for x in reversed(timer_list):
-            time.sleep(1)
+                # feed in serial_map to update serials
+
+
+            threads = []
+            for r in roots:
+                x = threading.Thread(target=measure, args=(r[0], target_address, r[1], serial_map)) # file_name, target_address, server_root, previous_serial
+                x.start()
+                threads.append(x)
+
+            for t in threads:
+                t.join()
+
+
+        for l in reversed(timer_list):
+            # time.sleep(1)
             iter += 1
             target_address = "example.com_byu_imaal_lab_test" + str(iter)
 
             # block until we are close enought to the target time
-            result_check = checkIfTime(current_time, target_time, -1 * x)
+            result_check = negCheckIfTime(current_time, target_time, -1 * l)
             while not result_check:
                 time.sleep(1)
                 print("waiting... (post)", iter)
                 # checks to see how close the current time is to the target
-                result_check = checkIfTime(current_time, target_time, -1 * x)
+                result_check = negCheckIfTime(current_time, target_time, -1 * l)
                 current_time = createTimeStamp()
 
-            
+
+            threads = []
             for r in roots:
-                x = threading.Thread(target=measure, args=(r[0], target_address, r[1], serial_map[r[0]])) # file_name, target_address, server_root, previous_serial
+                x = threading.Thread(target=measure, args=(r[0], target_address, r[1], serial_map)) # file_name, target_address, server_root, previous_serial
                 x.start()
-                x.join()
+                threads.append(x)
+
+            for t in threads:
+                t.join()
         
 
 
