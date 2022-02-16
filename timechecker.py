@@ -215,7 +215,7 @@ def main(argv):
             result_check = checkIfTime(current_time, target_time, l, 0)
             while not result_check:
                 time.sleep(1)
-                print("waiting...", iter)
+                # print("waiting...", iter)
                 # checks to see how close the current time is to the target
                 result_check = checkIfTime(current_time, target_time, l, 0)
                 current_time = createTimeStamp()
@@ -240,7 +240,7 @@ def main(argv):
             result_check = negCheckIfTime(current_time, target_time, -1 * l)
             while not result_check:
                 time.sleep(1)
-                print("waiting... (post)", iter)
+                # print("waiting... (post)", iter)
                 # checks to see how close the current time is to the target
                 result_check = negCheckIfTime(current_time, target_time, -1 * l)
                 current_time = createTimeStamp()
