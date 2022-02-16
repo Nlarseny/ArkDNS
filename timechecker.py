@@ -127,8 +127,9 @@ def get_serial(target, server_root):
         return -1
 
 
-def measure(file_name, target_address, server_root, serial_map):
-    previous_serial = serial_map[file_name]
+def measure(root_name, target_address, server_root, serial_map):
+    file_name = str(root_name) + ".txt"
+    previous_serial = serial_map[root_name]
     current_serial = get_serial(target_address, server_root)
     if current_serial != previous_serial or current_serial == -1:
         # print(iter)
@@ -140,11 +141,10 @@ def measure(file_name, target_address, server_root, serial_map):
         else:
             # print(file_name)
             with open(file_name, 'a') as the_file:
-                    first = str(datetime.now().time()) + " " + str(current_serial) + "\n"
-                    the_file.write(first)
+                first = str(datetime.now().time()) + " " + str(current_serial) + "\n"
+                the_file.write(first)
             
-            serial_map[file_name] = current_serial
-        
+            serial_map[root_name] = current_serial
 
     
 
@@ -153,32 +153,32 @@ def measure(file_name, target_address, server_root, serial_map):
 
 def main(argv):
     # hit the other addresses
-    roots = [("verisign(a)/v4", "198.41.0.4"),
-    ("USC/v4", "199.9.14.201"),
-    ("CogentCom/v4", "192.33.4.12"),
-    ("UM/v4", "199.7.91.13"),
-    ("NASA/v4", "192.203.230.10"),
-    ("ISC/v4", "192.5.5.241"),
-    ("US_DD(NIC)/v4", "192.112.36.4"),
-    ("Army/v4", "198.97.190.53"),
-    ("Netnod/v4", "192.36.148.17"),
-    ("verisign(j)/v4", "192.58.128.30"),
-    ("RIPE/v4", "193.0.14.129"),
-    ("ICANN/v4", "199.7.83.42"),
-    ("WIDE/v4", "202.12.27.33"),
-    ("verisign(a)/v6", "2001:503:ba3e::2:30"), # adding the ipv6's
-    ("USC/v6", "2001:500:200::b"),
-    ("CogentCom/v6", "2001:500:2::c"),
-    ("UM/v6", "2001:500:2d::d"),
-    ("NASA/v6", "2001:500:a8::e"),
-    ("ISC/v6", "2001:500:2f::f"),
-    ("US_DD(NIC)/v6", "2001:500:12::d0d"),
-    ("Army/v6", "2001:500:1::53"),
-    ("Netnod/v6", "2001:7fe::53"),
-    ("verisign(j)/v6", "2001:503:c27::2:30"),
-    ("RIPE/v6", "2001:7fd::1"),
-    ("ICANN/v6", "2001:500:9f::42"),
-    ("WIDE/v6", "2001:dc3::35")]
+    roots = [("verisign(a)-v4", "198.41.0.4"),
+    ("USC-v4", "199.9.14.201"),
+    ("CogentCom-v4", "192.33.4.12"),
+    ("UM-v4", "199.7.91.13"),
+    ("NASA-v4", "192.203.230.10"),
+    ("ISC-v4", "192.5.5.241"),
+    ("US_DD(NIC)-v4", "192.112.36.4"),
+    ("Army-v4", "198.97.190.53"),
+    ("Netnod-v4", "192.36.148.17"),
+    ("verisign(j)-v4", "192.58.128.30"),
+    ("RIPE-v4", "193.0.14.129"),
+    ("ICANN-v4", "199.7.83.42"),
+    ("WIDE-v4", "202.12.27.33"),
+    ("verisign(a)-v6", "2001:503:ba3e::2:30"), # adding the ipv6's
+    ("USC-v6", "2001:500:200::b"),
+    ("CogentCom-v6", "2001:500:2::c"),
+    ("UM-v6", "2001:500:2d::d"),
+    ("NASA-v6", "2001:500:a8::e"),
+    ("ISC-v6", "2001:500:2f::f"),
+    ("US_DD(NIC)-v6", "2001:500:12::d0d"),
+    ("Army-v6", "2001:500:1::53"),
+    ("Netnod-v6", "2001:7fe::53"),
+    ("verisign(j)-v6", "2001:503:c27::2:30"),
+    ("RIPE-v6", "2001:7fd::1"),
+    ("ICANN-v6", "2001:500:9f::42"),
+    ("WIDE-v6", "2001:dc3::35")]
 
     # start_recording("verisign(a)", "198.41.0.4")
     iter = 0
@@ -219,9 +219,6 @@ def main(argv):
                 # checks to see how close the current time is to the target
                 result_check = checkIfTime(current_time, target_time, l, 0)
                 current_time = createTimeStamp()
-
-
-                # feed in serial_map to update serials
 
 
             threads = []
