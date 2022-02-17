@@ -215,7 +215,7 @@ def main(argv):
 
 
                 # TESTING
-                measure(roots[0][0], target_address, roots[0][1], serial_map)
+                # measure(roots[0][0], target_address, roots[0][1], serial_map)
 
 
             threads = []
