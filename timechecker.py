@@ -187,7 +187,13 @@ def main(argv):
     current_time = createTimeStamp()
     list_of_times = ["22:45:29.685768", 
                     "05:45:30.905820",
-                    "17:30:13.089735"]
+                    "17:30:13.089735",
+                    "00:00:13.089735",
+                    "02:30:13.089735",
+                    "07:30:13.089735",
+                    "11:00:13.089735",
+                    "14:00:13.089735",
+                    "18:30:13.089735",]
 
 
     while 1:
@@ -206,6 +212,10 @@ def main(argv):
                 # checks to see how close the current time is to the target
                 result_check = checkIfTime(current_time, target_time, l, 0)
                 current_time = createTimeStamp()
+
+
+                # TESTING
+                measure(roots[0][0], target_address, roots[0][1], serial_map)
 
 
             threads = []
