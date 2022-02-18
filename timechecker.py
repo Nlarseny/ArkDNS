@@ -81,13 +81,25 @@ def next_target(time_list, current_time):
     smallest = 99999999999999
     iter = -1
     small_iter = -1
+    all_neg_flag = 1
     for t in time_till:
         iter += 1
         # print(iter)
         if t >= 0:
+            all_neg_flag = 0
             if t < smallest:
                 smallest = t
                 small_iter = iter
+
+    # if all the times are before the current time 
+    if all_neg_flag:
+        iter = -1
+        for t in time_till:
+            iter += 1
+            if t < smallest:
+                smallest = t
+                small_iter = iter
+
 
     # print(small_iter, smallest, time_till[small_iter])
     #times[small_iter].print_time()
