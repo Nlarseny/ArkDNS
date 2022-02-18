@@ -211,6 +211,8 @@ def main(argv):
     while 1:
         target_time = next_target(list_of_times, current_time)
 
+        print(target_time.print_time(), current_time)
+
         for l in timer_list:
             # time.sleep(1)
             iter += 1
