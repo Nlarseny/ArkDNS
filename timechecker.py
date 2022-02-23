@@ -191,10 +191,20 @@ def main(argv):
     
     # generates range list for us
     timer_list = []
-    for k in range(270):
-        temp = 2700 - 10 * k
+    # for k in range(270):
+    #     temp = 2700 - 10 * k
+    #     timer_list.append(temp)
+    # timer_list.append(5)
+
+
+    # 1440 minutes in a day
+    for k in range(0, 1440):
+        temp = 14400 - 10 * k
         timer_list.append(temp)
-    timer_list.append(5)
+
+    print(timer_list)
+
+
 
     current_time = createTimeStamp()
     # list_of_times = ["22:45:29.685768", 
@@ -207,10 +217,12 @@ def main(argv):
     #                 "14:00:13.089735",
     #                 "18:30:13.089735",]
 
-    list_of_times = ["05:45:30.905820",
-                    "17:45:13.089735",
-                    "16:00:10.089735",
-                    "00:00:00.089735"]
+    # list_of_times = ["05:45:30.905820",
+    #                 "17:45:13.089735",
+    #                 "16:00:10.089735",
+    #                 "00:00:00.089735"]
+
+    list_of_times = ["00:00:00.002232022"]
 
 
     while 1:
