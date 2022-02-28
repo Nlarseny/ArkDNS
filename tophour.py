@@ -143,7 +143,7 @@ def measure(root_name, target_address, server_root, serial_map):
     file_name = str(root_name) + ".txt"
     previous_serial = serial_map[root_name]
     current_serial = get_serial(target_address, server_root)
-    if current_serial != previous_serial or current_serial == -1:
+    if current_serial > previous_serial or current_serial == -1: # switch to > ?
         # print(iter)
         if current_serial == -1:
             with open(file_name, 'a') as the_file:
