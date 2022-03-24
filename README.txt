@@ -8,8 +8,8 @@ sql-us
 sjo-cr
 san-us
 yxu-ca
-beg-rs
+beg-rs (died)
 hnd-jp
 iev-ua
-jnb-za
+jnb-za (died)
 ord-us
