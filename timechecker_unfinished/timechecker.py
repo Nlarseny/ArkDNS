@@ -124,14 +124,14 @@ def get_serial(target, server_root):
     if not domain.is_absolute():
         domain = domain.concatenate(dns.name.root)
 
-    request = dns.message.make_query(domain, dns.rdatatype.A, use_edns=0) # use_edns = 0? for below code
+    request = dns.message.make_query(domain, dns.rdatatype.A, use_edns=dns.edns.NSID) # use_edns = 0? for below code
 
     try:
         response = dns.query.udp(request, server_root, timeout=2.0) # timeout 2 seconds, throws timeout exception (try around it), .4
 
         for rrset in response.authority:
             if rrset.rdtype == dns.rdatatype.SOA and rrset.name == dns.name.root: # makes sure its the root that owns the record
-                return int(rrset[0].serial)
+                return int(rrset[0].serial) # NOTE: need to return nsid as well
             else:
                 print("error explanation")
     except Exception as e:
