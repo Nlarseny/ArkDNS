@@ -1,25 +1,16 @@
 import sys
 import glob
-from csv import writer
-import numpy as np
-import copy
 
 
-
-
-
-
-
-
+# Get all files in folders and return as a list
 def get_filenames():
-    #file_list = glob.glob("./1test/*.txt") # Include slash or it will search in the wrong directory
-
     all_files = glob.glob('./**/*.txt', 
                    recursive = True)
 
     return all_files
 
 
+# Returns number of occurances a string appears in a file
 def check_if_string_in_file(file_name, string_to_search):
     iter = 0
     with open(file_name, 'r') as read_obj:
@@ -28,10 +19,9 @@ def check_if_string_in_file(file_name, string_to_search):
                 iter += 1
     return iter
 
-def create_table(serial_num):
-    # list_of_headers = ["SERIALS", "verisign(a)", "USC", "CogentCom",
-    # "UM", "NASA", "ISC", "US DD", "Army", "Netnod", "verisign(j)", "RIPE", "ICANN", "WIDE"]
 
+# Prints out the results of how many times a TIME OUT string occurs
+def create_table(serial_num):
     list_of_headers = {}
     files = get_filenames()
     for file in files:
@@ -39,17 +29,8 @@ def create_table(serial_num):
         file_name = temp[1]
         list_of_headers[file_name] = check_if_string_in_file(file, "TIMED OUT")
 
-
     print(list_of_headers)
 
-
-
-
-    
-
-
-
-    
 
 def main(argv):
     serial_num = 0
@@ -57,7 +38,6 @@ def main(argv):
         serial_num = int(argv[0])
 
     create_table(serial_num)
-
 
 
 if __name__ == "__main__":
